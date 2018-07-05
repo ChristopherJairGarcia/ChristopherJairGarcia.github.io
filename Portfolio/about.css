@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+img {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+div.a {
+    width: 600px;
+    border: 2px solid darkturquoise;    
+}
+a{
+    color: darkturquoise;
+}
+h3{
+    color: darkturquoise;
+    line-height: 130%;
+    
+}
