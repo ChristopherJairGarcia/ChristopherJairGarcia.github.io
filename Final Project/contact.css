@@ -1,9 +1,16 @@
-body{ 
-  background-color:#90AFC5;
-  font-family: 'Nanum+gothic',sans-serif;
-  text-align: center; 
+body{
+    background-color: #90AFC5;
+    font-family: 'Nanum+gothic',sans-serif;
 }
- a{
+
+h1{
+    
+    padding-top: 30px;
+    color: aliceblue;
+    margin: 0px;
+}
+
+a{
     color: darkgreen;
 }
 
@@ -11,20 +18,12 @@ a:hover {
     color: white;
 }
 
-img{
-  width: 55%;
-  height: auto;
-}
-h2{
-  color:  #2A3132;
-  font-size: 80;
-}
 .button1{
     text-align: center;
     padding: 10px;
-    margin: 5px;
+    margin: px;
     border-style: solid;
-    border-radius: 100px;
-    width: 100;
+    border-radius: 150px;
+    width: 100px;
     float: right;
 }
