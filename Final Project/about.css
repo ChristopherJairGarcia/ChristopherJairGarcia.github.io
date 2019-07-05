@@ -1,5 +1,6 @@
 body{
     background-color: #90AFC5;
+    font-family: 'Nanum+gothic',sans-serif;
 }
 
 h1{
@@ -20,9 +21,9 @@ a:hover {
 .button1{
     text-align: center;
     padding: 10px;
-    margin: 5px;
+    margin: px;
     border-style: solid;
-    border-radius: 100px;
-    width: 100;
+    border-radius: 150px;
+    width: 100px;
     float: right;
 }
