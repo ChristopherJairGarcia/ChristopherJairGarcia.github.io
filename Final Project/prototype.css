@@ -3,3 +3,24 @@ body{
   font-family: 'Nanum+gothic',sans-serif;
   text-align: center; 
 }
+ a{
+    color: darkgreen;
+}
+
+a:hover { 
+    color: white;
+}
+
+h2{
+  color:  #2A3132;
+  font-size: 80;
+}
+.button1{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border-style: solid;
+    border-radius: 150px;
+    width: 100px;
+    float: right;
+}
