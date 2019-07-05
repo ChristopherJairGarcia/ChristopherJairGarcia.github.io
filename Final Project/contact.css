@@ -14,3 +14,12 @@ h2{
   color:  #2A3132;
   font-size: 80;
 }
+.button1{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 100px;
+    width: 100;
+    float: right;
+}
