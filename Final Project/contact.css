@@ -27,3 +27,57 @@ a:hover {
     width: 100px;
     float: right;
 }
+.oofieDoofie {
+    float: ;
+    width: 45%;  
+    height: auto;
++   margin-top: auto;
+    border-radius: 15%;
+}
+
+.oofieDoofie img, .oofieDoofie h2 {
+    float: ;
+    margin-top: auto;
+    border-radius: 15%;
+    width: 45%;  
+    height: auto;
+    }
+    
+    #header{
+    background: #AA4B41;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+ }
+    
+    nav{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding: 14px 16px;
+    float: ;
+}
+    
+    .containOof::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+
+.oofieDoofie {
+   float: ;
+   display: inline-block;
+   width: 45%;  
+   height: auto;
+   border-radius: 15%;
+}
+
+.oofieDoofie img, .oofieDoofie h2 {
+   float: ;
+   display: inline-block;
+   border-radius: 15%;
+   width: 45%;  
+   height: auto;
+}
