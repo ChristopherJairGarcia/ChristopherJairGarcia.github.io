@@ -11,6 +11,15 @@ h1{
     margin: 0px;
 }
 
+img{
+  width: 55%;
+  height: auto;
+}
+
+h2{
+  color:  #2A3132;
+  font-size: 80;
+}
 a{
     color: darkgreen;
 }
