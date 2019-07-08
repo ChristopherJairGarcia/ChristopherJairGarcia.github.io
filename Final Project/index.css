@@ -5,9 +5,19 @@ body{
 
 h1{
     
-    padding-top: 30px;
-    color: aliceblue;
+    padding-top: 3px;
+    color: white;
     margin: 0px;
+}
+
+.centered {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1C021A;
+  font-size: 38px;
+  font-weight: bold;
 }
 
 a{
@@ -26,4 +36,12 @@ a:hover {
     border-radius: 150px;
     width: 100px;
     float: right;
+}
+
+.img{
+    padding-top: 50px;
+    padding-right: 1opx
+    position: relative;
+    width: 1300px;
+    height: 250px;
 }
