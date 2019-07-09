@@ -40,8 +40,21 @@ a:hover {
 
 .img{
     padding-top: 50px;
-    padding-right: 1opx
     position: relative;
-    width: 1300px;
+    width: 97.5vw;
     height: 250px;
+}
+
+.smashhalf {
+    float: left;
+    width: 50vw;
+    height: 1000vh;
+    margin: 10px;
+}
+
+.mushalf {
+    float: right;
+    width: 40vw;
+    height: 100vh;
+    margin: 10px;
 }
