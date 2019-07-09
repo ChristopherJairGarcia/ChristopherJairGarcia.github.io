@@ -3,25 +3,7 @@ function setup()
     createCanvas(800, 400);
     //sets units of angles to be in degrees for arc
     angleMode(DEGREES);  
-    button = createButton('plate1');
-  button.position(500, 19);
-  button.mousePressed();
-  button1 = createButton('plate2');
-  button1.mousePressed();
-  button2 = createButton('plate3');
-  button2.mousePressed();
-  button3 = createButton('plate4');
-  button3.mousePressed();
-  button4 = createButton('plate5');
-  button4.mousePressed();
-  button5 = createButton('plate6');
-  button5.mousePressed();  
-  button6 = createButton('plate7');
-  button6.mousePressed();
-  button7 = createButton('plate8');
-  button7.mousePressed();
-    
-   
+ 
   
 }
 function draw () {
