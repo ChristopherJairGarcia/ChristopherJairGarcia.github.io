@@ -23,6 +23,17 @@ function draw () {
  //middle right plate 
   fill( 247, 251, 250);
  ellipse(550 , 155, 55 ,55 );
+     // bottom right plate
+  fill( 247, 251, 250);
+ ellipse(425 , 250, 55 ,55 );  
+ // bottom middle plate 
+ fill( 247, 251, 250);
+ ellipse(320 , 250, 55 ,55 );
+ // bottom left plate 
+  fill( 247, 251, 250);
+ ellipse(220 , 250, 55 ,55 );
+ 
+
 }
 
 
