@@ -6,34 +6,41 @@ function setup()
   
 }
 function draw () {
- fill(28,27,28 );
+    //table color
+ fill( 51 );
  rect(30, 20, 655, 295);
- //middle plate on theleft
+ //table cloth
+ strokeWeight(4);
+stroke(247, 248, 250);
+fill(145, 36, 181);
+rect(80,50,550,230);
+
+
+ //middle plate on the left
  fill( 247, 248, 250);
- ellipse(90 , 155, 55 ,55 );
+ ellipse(145 , 175, 55 ,55 );
  //top left plate 
  fill( 247, 251, 250);
- ellipse(220 , 90, 55 ,55 );
+ ellipse(245 , 100, 55 ,55 );
  //top middle plate
   fill( 247, 251, 250);
- ellipse(320 , 90, 55 ,55 );
+ ellipse(345 , 100, 55 ,55 );
  //top right plate 
   fill( 247, 251, 250);
- ellipse(425 , 90, 55 ,55 );
+ ellipse(450 , 100, 55 ,55 );
  //middle right plate 
   fill( 247, 251, 250);
- ellipse(550 , 155, 55 ,55 );
-     // bottom right plate
-  fill( 247, 251, 250);
- ellipse(425 , 250, 55 ,55 );  
+ ellipse(575 , 175, 55 ,55 );
+ // bottom right plate
+  fill( 247, 241, 250);
+ ellipse(450 , 230, 55 ,55 );  
  // bottom middle plate 
  fill( 247, 251, 250);
- ellipse(320 , 250, 55 ,55 );
+ ellipse(345 , 230, 55 ,55 );
  // bottom left plate 
   fill( 247, 251, 250);
- ellipse(220 , 250, 55 ,55 );
+ ellipse(245 , 230, 55 ,55 );
  
-
-}
-
+ }
+ 
 
