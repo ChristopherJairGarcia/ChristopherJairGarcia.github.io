@@ -6,7 +6,7 @@ function setup()
   
 }
 function draw () {
- fill(28,27,28 )
+ fill(28,27,28 );
  rect(30, 20, 655, 295);
 
 }
