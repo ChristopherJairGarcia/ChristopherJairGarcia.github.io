@@ -54,7 +54,7 @@ a:hover {
     height: auto;
     }
     
-    #header{
+#header{
     background: #AA4B41;
     margin: 0px;
     padding: 0px;
@@ -62,15 +62,7 @@ a:hover {
     text-align: center;
  }
     
-    nav{
-    text-align: center;
-    font-size: 20px;
-    display: block;
-    padding: 12px 16px;
-    float: ;
-}
-    
-    .containOof::after {
+.containOof::after {
     content: "";
     display: table;
     clear: both;
