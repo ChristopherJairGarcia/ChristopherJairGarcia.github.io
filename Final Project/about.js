@@ -10,3 +10,8 @@ function draw () {
  rect(30, 20, 655, 295);
 
 }
+function plates(){
+fill( 51);
+ ellipse(56 , 46 , 55 ,55 );
+
+}
