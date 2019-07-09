@@ -8,10 +8,21 @@ function setup()
 function draw () {
  fill(28,27,28 );
  rect(30, 20, 655, 295);
-
+ //middle plate on theleft
+ fill( 247, 248, 250);
+ ellipse(90 , 155, 55 ,55 );
+ //top left plate 
+ fill( 247, 251, 250);
+ ellipse(220 , 90, 55 ,55 );
+ //top middle plate
+  fill( 247, 251, 250);
+ ellipse(320 , 90, 55 ,55 );
+ //top right plate 
+  fill( 247, 251, 250);
+ ellipse(425 , 90, 55 ,55 );
+ //middle right plate 
+  fill( 247, 251, 250);
+ ellipse(550 , 155, 55 ,55 );
 }
-function plates(){
-fill( 51);
- ellipse(56 , 46 , 55 ,55 );
 
-}
+
