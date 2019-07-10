@@ -3,8 +3,10 @@ body{
   font-family: 'Nanum+gothic',sans-serif;
   text-align: center; 
 }
- a{
-    color:  #9124b5;
+a{
+    color:  #771B8C;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 a:hover { 
