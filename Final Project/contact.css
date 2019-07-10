@@ -21,7 +21,9 @@ h2{
   font-size: 80;
 }
 a{
-    color: #9124b5;
+    color:  #771B8C;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 a:hover { 
