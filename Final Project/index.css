@@ -8,6 +8,7 @@ h1{
     padding-top: 3px;
     color: white;
     margin: 0px;
+    font-size: 40px;
 }
 
 .centered {
@@ -21,7 +22,7 @@ h1{
 }
 
 a{
-    color: #9124b5;
+    color: darkgreen;
 }
 
 a:hover { 
@@ -57,4 +58,8 @@ a:hover {
     width: 40vw;
     height: 100vh;
     margin: 10px;
+}
+
+#explain{
+    font-size: 20px;
 }
