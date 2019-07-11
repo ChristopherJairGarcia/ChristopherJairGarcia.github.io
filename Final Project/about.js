@@ -3,6 +3,7 @@ function setup()
     createCanvas(800, 400);
     //sets units of angles to be in degrees for arc
     angleMode(DEGREES);  
+	  buttonDefault.mousePressed(d);
  
   
 }
