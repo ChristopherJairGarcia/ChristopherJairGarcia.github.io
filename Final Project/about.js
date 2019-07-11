@@ -9,7 +9,7 @@ function setup()
 function draw () {
     //table color
  fill( 51 );
- rect(30, 20, 655, 295);
+ rect(100, 80, 655, 295);
  //table cloth
  strokeWeight(4);
 stroke(247, 248, 250);
