@@ -51,5 +51,5 @@ rect(150,120,550,230);
  }
  
 function d(){
-	createP(" hi")
+	createP(" hi");
 }
