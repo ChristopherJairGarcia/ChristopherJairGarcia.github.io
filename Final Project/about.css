@@ -14,7 +14,7 @@ body{
 .default2 {color: purple ;}
 
 .btn {
-  border:none ; 
+  border: solid ; 
   background-color: inherit;
   padding: 14px 28px;
   font-size: 23px;
