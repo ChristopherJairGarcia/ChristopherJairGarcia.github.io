@@ -24,7 +24,7 @@ rect(150,120,550,230);
 
  //middle plate on the left
  fill( 247, 248, 250);
- ellipse(215 , 250, 55 ,55 );
+ ellipse(215 , 240, 55 ,55 );
  //top left plate 
  fill( 247, 251, 250);
  ellipse(325 , 175, 55 ,55 );
@@ -38,7 +38,7 @@ rect(150,120,550,230);
   fill( 247, 238, 250);
   ellipse(440 , 235, 115 ,53 );
  //middle right plate 
-  fill( 247, 251, 250);
+  fill( 247, 240, 250);
  ellipse(640 , 250, 55 ,55 );
  // bottom right plate
   fill( 247, 341, 250);
