@@ -6,23 +6,24 @@ body{
 h1{
     
     padding-top: 3px;
-    color: white;
+    color: #9124b5;
     margin: 0px;
     font-size: 40px;
 }
 
 .centered {
   position: absolute;
-  top: 39%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #1C021A;
-  font-size: 38px;
+  color: darkblue;
+  font-size: 41px;
   font-weight: bold;
+    width: 70vw;
 }
 
 a{
-   color:  #771B8C;
+    color:  #771B8C;
     text-decoration: none;
     font-weight: 800;
 }
@@ -46,13 +47,15 @@ a:hover {
     position: relative;
     width: 97.5vw;
     height: 250px;
+    opacity: 0.9;
 }
 
 .smashhalf {
     float: left;
     width: 50vw;
-    height: 1000vh;
+    height: 100vh;
     margin: 10px;
+    color: white;
 }
 
 .mushalf {
@@ -60,8 +63,13 @@ a:hover {
     width: 40vw;
     height: 100vh;
     margin: 10px;
+    color: white;
 }
 
 #explain{
     font-size: 20px;
+}
+#smash{
+    color: darkblue;
+    text-decoration: underline;
 }
