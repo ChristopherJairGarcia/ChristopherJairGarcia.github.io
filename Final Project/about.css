@@ -4,14 +4,14 @@ body{
 }
 .btn:hover {background: #eee;}
 
-.success {color: red;}
-.info {color: orange;}
-.warning {color: yellow;}
-.danger {color: green;}
-.default {color:dodgerblue;}
-.defaulty {color: indigo;}
-.default1 {color: magenta;}
-.default2 {color: purple ;}
+.success {color: darkblue;}
+.info {color: darkblue;}
+.warning {color: darkblue;}
+.danger {color: darkblue;}
+.default {color:darkblue;}
+.defaulty {color: darkblue;}
+.default1 {color: darkblue;}
+.default2 {color: darkblue ;}
 
 .btn {
   border: solid ; 
