@@ -50,6 +50,6 @@ rect(150,120,550,230);
  
  }
  
- function mouseReleased() {
-	loop();
+function d(){
+	createP(" hi")
 }
