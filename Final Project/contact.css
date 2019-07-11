@@ -3,7 +3,12 @@ body{
     font-family: 'Nanum+gothic',sans-serif;
     text-align: center;
 }
-
+h4{
+    color:white;
+    font-size: 2vw;
+    margin: 1px;
+    float: none;
+}
 h3{
     
     padding-top: 5px;
@@ -17,8 +22,11 @@ img{
 }
 
 h2{
-  color:  #2A3132;
+  color:  darkblue;
   font-size: 80;
+    padding-top: 67px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 a{
     color:  #771B8C;
