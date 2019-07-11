@@ -2,6 +2,25 @@ body{
     background-color: #90AFC5;
     font-family: 'Nanum+gothic',sans-serif;
 }
+.btn:hover {background: #eee;}
+
+.success {color: red;}
+.info {color: orange;}
+.warning {color: yellow;}
+.danger {color: green;}
+.default {color:dodgerblue;}
+.defaulty {color: indigo;}
+.default1 {color: magenta;}
+.default2 {color: purple ;}
+
+.btn {
+  border:none ; 
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
 
 h1{
     
