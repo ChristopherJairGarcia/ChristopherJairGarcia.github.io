@@ -32,7 +32,7 @@ rect(80,50,550,230);
   //big oval in the middle 
   fill( 247, 248, 250);
   ellipse(350 , 165, 115 ,53 );
-  createP( " MUS")
+ 
  //middle right plate 
   fill( 247, 251, 250);
  ellipse(575 , 175, 55 ,55 );
