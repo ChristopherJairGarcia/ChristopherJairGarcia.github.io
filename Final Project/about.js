@@ -1,3 +1,4 @@
+let mousepressed = false;
 function setup()
 {   
     createCanvas(800, 400);
@@ -50,8 +51,12 @@ rect(150,120,550,230);
   fill( 247, 251, 250);
  ellipse(325 , 295, 55 ,55 );
  
+if (mousepressed && mouseX = 325 && mouseY = 295)
  }
  
 function d(){
 	createP(" hi");
+}
+function mouseClicked() {
+mousepressed = true;
 }
