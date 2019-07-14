@@ -28,7 +28,11 @@ h1{
     color: aliceblue;
     margin: 0px;
 }
-
+.logo{
+    height: 11vw;
+    width: 20vw;
+    float: left;
+}
 a{
    color:  #771B8C;
     text-decoration: none;
