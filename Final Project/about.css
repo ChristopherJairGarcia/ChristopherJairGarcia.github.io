@@ -6,8 +6,9 @@ body{
 h1{
     
     padding-top: 30px;
-    color: aliceblue;
+    color: black;
     margin: 0px;
+    text-align: center;
 }
 .logo{
     height: 11vw;
