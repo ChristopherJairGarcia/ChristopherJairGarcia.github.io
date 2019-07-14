@@ -9,6 +9,11 @@ h4{
     margin: 1px;
     float: none;
 }
+.logo{
+    height: 11vw;
+    width: 20vw;
+    float: left;
+}
 h3{
     
     padding-top: 5px;
