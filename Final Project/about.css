@@ -2,25 +2,6 @@ body{
     background-color: #90AFC5;
     font-family: 'Nanum+gothic',sans-serif;
 }
-.btn:hover {background: #eee;}
-
-.success {color: darkblue;}
-.info {color: darkblue;}
-.warning {color: darkblue;}
-.danger {color: darkblue;}
-.default {color:darkblue;}
-.defaulty {color: darkblue;}
-.default1 {color: darkblue;}
-.default2 {color: darkblue ;}
-
-.btn {
-  border: solid ; 
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 20px;
-  cursor: pointer;
-  display: inline-block;
-}
 
 h1{
     
