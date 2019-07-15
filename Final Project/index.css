@@ -2,22 +2,15 @@ body{
     background-color: #90AFC5;
     font-family: 'Nanum+gothic',sans-serif;
 }
-.logo{
-    height: 11vw;
-    width: 20vw;
-    float: left;
-}
+
 h1{
     
-    padding-top: 3px;
+    padding-top: 40px;
     color: #9124b5;
     margin: 0px;
     font-size: 40px;
 }
-.logo{
-    height: 11vw;
-    width: 20vw;
-}
+
 .centered {
   position: absolute;
   top: 46%;
@@ -34,7 +27,11 @@ a{
     text-decoration: none;
     font-weight: 800;
 }
-
+.logo{
+    height: 11vw;
+    width: 20vw;
+    float: left;
+}
 a:hover { 
     color: white;
 }
@@ -58,19 +55,26 @@ a:hover {
 }
 
 .smashhalf {
+    padding-top: 10px;
     float: left;
-    width: 50vw;
-    height: 70vh;
+    width: 56vw;
+    height: 60vh;
     margin: 10px;
     color: white;
 }
 
 .mushalf {
+    padding-top: 10px;
     float: right;
-    width: 40vw;
-    height: 80vh;
+    width: 35vw;
+    height: 60vh;
     margin: 10px;
     color: white;
+}
+
+#Propage{
+    color: darkblue;
+    text-decoration: underline;
 }
 
 #explain{
@@ -80,6 +84,6 @@ a:hover {
     color: darkblue;
     text-decoration: underline;
 }
-#solution{
-    
+#Solution{
+    font-size: 18px;
 }
