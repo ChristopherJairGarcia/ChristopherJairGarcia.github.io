@@ -191,3 +191,35 @@ ellipse(x1, y1, size1, size2 );
      }
  // bottom left plate 
   fill( 247, 251, 250);
+fill( 247, 251, 250);
+ ellipse(325 , 295, 55 ,55 );
+ 
+    if (mousepressed &&  mouseX >270 && mouseX <380 && mouseY > 240 && mouseY < 350 )
+      if (mousepressed &&  mouseX > 270 && mouseX < 380 && mouseY > 240 && mouseY <350   )
+     {
+         leftplate = !leftplate;
+         if (leftplate){
+             x1 = 325;
+             y1 = 295;
+             size1 = 450;
+             size2 = 400;
+             
+             
+         }
+         else{
+            x1 = 325;
+            y1 = 175;
+            size1 = 55;
+            size2 = 55;
+         }
+         ellipse(x1, y1, size1, size2 );
+     
+         
+     }
+ }
+function mouseClicked (){
+    mousepressed = !mousepressed;
+    console.log(mousepressed);
+}
+ 
+
