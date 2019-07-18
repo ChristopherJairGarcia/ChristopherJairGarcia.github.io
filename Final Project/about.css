@@ -1,28 +1,21 @@
 body{
-    background-color: #90AFC5;
+    background-color: #E7BC04;
     font-family: 'Nanum+gothic',sans-serif;
 }
 
 h1{
     
     padding-top: 30px;
-    color: black;
+    color: aliceblue;
     margin: 0px;
-    text-align: center;
 }
-.logo{
-    height: 11vw;
-    width: 20vw;
-    float: left;
-}
+
 a{
-   color:  #771B8C;
-    text-decoration: none;
-    font-weight: 800;
+    color: black;
 }
 
 a:hover { 
-    color: white;
+    color: black;
 }
 
 .button1{
@@ -30,7 +23,7 @@ a:hover {
     padding: 10px;
     margin: 0px;
     border-style: solid;
-    border-radius: 150px;
-    width: 100px;
+    border-radius: 1px;
+    width: 150px;
     float: right;
 }
