@@ -102,7 +102,7 @@ ellipse(215, 240, size1, size2 );
              size10 = 400;
               textSize(32);
              fill(0, 102, 153);
-             text('Hehe', 295, 195);
+             text('Mercury is considered to be one of the major environmental pollutants, is widely used in industry, agriculture, and medicine, and circulates in ecosystems, but is never destroyed.Human exposure to these chemicals at toxic levels has been linked to numerous health effects including cancers, cardiovascular disease , kidney and liver dysfunction, hormonal imbalances, reproductive disorders, and birth defects. ', 295, 195);
             
          }
          else{
@@ -126,7 +126,8 @@ ellipse(215, 240, size1, size2 );
              size12 = 400;
              textSize(32);
              fill(0, 102, 153);
-             text('Elmos World', 295, 195);
+             text('Most mercury pollution is released into the air and then falls directly into water bodies or onto land, where it can be washed into waterways. When mercury gets into water, bacteria can change it into a form called methylmercury, which is absorbed by tiny aquatic organisms.Human-caused emissions include mercury released from fuels or raw materials, or from uses in products or industrial processes for example factories
+', 295, 195);
          }
          else{
         
@@ -154,7 +155,7 @@ ellipse(215, 240, size1, size2 );
              size14 = 400;
               textSize(32);
              fill(0, 102, 153);
-             text('Chem Is Try', 295, 195);
+             text('Elemental mercury is liquid at room temperature, and it can be released easily into the atmosphere as mercury vapor because of its high vapor pressure.Elemental mercury  also enter  the brain from the nasal cavity through the olfactory pathway (smell).', 295, 195);
            
          }
          else{
@@ -203,7 +204,7 @@ ellipse(215, 240, size1, size2 );
              size18 = 400;
              textSize(32);
              fill(0, 102, 153);
-             text('Hello World', 365, 195);            
+             text('', 365, 195);            
              
          }
          else{
