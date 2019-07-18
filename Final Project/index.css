@@ -1,14 +1,17 @@
 body{
-    background-color: #90AFC5;
+    background-color: #E7BC04;
     font-family: 'Nanum+gothic',sans-serif;
 }
 
 h1{
     
-    padding-top: 40px;
-    color: #9124b5;
-    margin: 0px;
-    font-size: 40px;
+padding-top: 40px;
+    
+color: #000000;
+    
+margin: 0px;
+    
+font-size: 40px;
 }
 
 .centered {
@@ -16,14 +19,17 @@ h1{
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: darkblue;
-  font-size: 41px;
+  color: black;
+  font-size: 40px;
   font-weight: bold;
-    width: 70vw;
+  width: 70vw;
+  height: 30%;
+  text-decoration: underline;
+  
 }
 
 a{
-    color:  #771B8C;
+    color: #000000;
     text-decoration: none;
     font-weight: 800;
 }
@@ -41,8 +47,8 @@ a:hover {
     padding: 10px;
     margin: 0px;
     border-style: solid;
-    border-radius: 150px;
-    width: 100px;
+    border-radius: 1px;
+    width: 150px;
     float: right;
 }
 
@@ -51,7 +57,7 @@ a:hover {
     position: relative;
     width: 97.5vw;
     height: 250px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .smashhalf {
@@ -60,7 +66,7 @@ a:hover {
     width: 56vw;
     height: 60vh;
     margin: 10px;
-    color: white;
+    color: black;
 }
 
 .mushalf {
@@ -69,7 +75,7 @@ a:hover {
     width: 35vw;
     height: 60vh;
     margin: 10px;
-    color: white;
+    color: black;
 }
 
 #explain{
