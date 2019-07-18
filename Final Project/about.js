@@ -1,4 +1,3 @@
-
 let mousepressed = false; 
 let leftplate = false;
 let plate1 = false;
@@ -30,8 +29,7 @@ function setup()
 {   
     createCanvas(800, 400);
     //sets units of angles to be in degrees for arc
-    angleMode(DEGREES);
-  
+    angleMode(DEGREES);  
   
 }
 function draw () {
@@ -79,6 +77,9 @@ ellipse(215, 240, size1, size2 );
              
              size5 = 450;
              size6 = 400;
+              textSize(32);
+             fill(0, 102, 153);
+             text('devin ',295, 195);
             
          }
          else{
@@ -86,11 +87,8 @@ ellipse(215, 240, size1, size2 );
             size5 = 55;
             size6 = 55;
          }
-
          
      }
-      
-
  
  //top middle plate
   fill( 247, 251, 250);
@@ -102,17 +100,18 @@ ellipse(215, 240, size1, size2 );
            
              size9 = 450;
              size10 = 400;
+              textSize(32);
+             fill(0, 102, 153);
+             text('Hehe', 295, 195);
             
          }
          else{
            
             size9 = 55;
             size10 = 55;
-         }
-        
+         }       
      
-     }
-  
+     } 
     
  //top right plate 
   fill( 247, 251, 250);
@@ -125,7 +124,9 @@ ellipse(215, 240, size1, size2 );
             
              size11 = 450;
              size12 = 400;
-           
+             textSize(32);
+             fill(0, 102, 153);
+             text('Elmos World', 295, 195);
          }
          else{
         
@@ -151,6 +152,9 @@ ellipse(215, 240, size1, size2 );
             
              size13 = 450;
              size14 = 400;
+              textSize(32);
+             fill(0, 102, 153);
+             text('Chem Is Try', 295, 195);
            
          }
          else{
@@ -158,8 +162,7 @@ ellipse(215, 240, size1, size2 );
             size13 = 55;
             size14 = 55;
          }
-       
-        
+               
     }
 
 
@@ -174,14 +177,16 @@ ellipse(215, 240, size1, size2 );
             
              size15 = 450;
              size16 = 400;
+             fill(0, 102, 153);
+             textSize(32);
+             text('Its a Math Thing', 405, 195);
           
          }
          else{
             
             size15 = 55;
             size16 = 55;
-         }
-     
+         }   
          
      }
 
@@ -198,17 +203,14 @@ ellipse(215, 240, size1, size2 );
              size18 = 400;
              textSize(32);
              fill(0, 102, 153);
-             text('Hello World', 325, 295);
-            
+             text('Hello World', 365, 195);            
              
          }
          else{
             
             size17 = 55;
             size18 = 55;
-         }
-
-         
+         }        
      }
 
 // // bottom left plate 
@@ -222,8 +224,7 @@ ellipse(215, 240, size1, size2 );
            
              size19 = 400;
              size20 = 400;
-             
-             
+         
          }
          else{
            
@@ -231,7 +232,6 @@ ellipse(215, 240, size1, size2 );
             size20 = 55;
          }
      }
-    
      }
    function mouseClicked() {
     leftplate = !leftplate;
@@ -243,5 +243,8 @@ ellipse(215, 240, size1, size2 );
     plate7 = !plate7;
     plate8 = !plate8;         
     }
+
+
+
 
 
