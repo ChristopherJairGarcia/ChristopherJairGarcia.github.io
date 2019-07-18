@@ -37,7 +37,7 @@ function setup()
   
 }
 function draw () {
-  background('#E7BC04');
+  background(#E7BC04);
     //table color
  fill( 51 );
  rect(100, 90, 655, 295);
