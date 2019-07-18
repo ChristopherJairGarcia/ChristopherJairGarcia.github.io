@@ -81,6 +81,9 @@ ellipse(215, 240, size1, size2 );
              
              size5 = 450;
              size6 = 400;
+             textSize(32);
+             fill(0, 102, 153);
+             text('Hello World', 325, 295);
             
          }
          else{
