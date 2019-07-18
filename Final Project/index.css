@@ -5,13 +5,10 @@ body{
 
 h1{
     
-padding-top: 40px;
-    
-color: #000000;
-    
-margin: 0px;
-    
-font-size: 40px;
+    padding-top: 40px;
+    color: #9124b5;
+    margin: 0px;
+    font-size: 40px;
 }
 
 .centered {
@@ -19,17 +16,14 @@ font-size: 40px;
   top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
-  font-size: 40px;
+  color: darkblue;
+  font-size: 41px;
   font-weight: bold;
-  width: 70vw;
-  height: 30%;
-  text-decoration: underline;
-  
+    width: 70vw;
 }
 
 a{
-    color: #000000;
+    color:  #771B8C;
     text-decoration: none;
     font-weight: 800;
 }
@@ -47,8 +41,8 @@ a:hover {
     padding: 10px;
     margin: 0px;
     border-style: solid;
-    border-radius: 1px;
-    width: 150px;
+    border-radius: 150px;
+    width: 100px;
     float: right;
 }
 
@@ -57,7 +51,7 @@ a:hover {
     position: relative;
     width: 97.5vw;
     height: 250px;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .smashhalf {
@@ -66,7 +60,7 @@ a:hover {
     width: 56vw;
     height: 60vh;
     margin: 10px;
-    color: black;
+    color: white;
 }
 
 .mushalf {
@@ -75,8 +69,10 @@ a:hover {
     width: 35vw;
     height: 60vh;
     margin: 10px;
-    color: black;
+    color: white;
 }
+
+
 
 #explain{
     font-size: 18px;
