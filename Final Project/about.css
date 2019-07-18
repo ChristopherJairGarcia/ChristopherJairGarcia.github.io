@@ -1,7 +1,8 @@
 body{
-    background-color: #E7BC04;
+    background-color:#E7BC04;
     font-family: 'Nanum+gothic',sans-serif;
 }
+
 
 h1{
     
@@ -11,11 +12,13 @@ h1{
 }
 
 a{
-    color: black;
+   color:  #771B8C;
+    text-decoration: none;
+    font-weight: 800;
 }
 
 a:hover { 
-    color: black;
+    color: white;
 }
 
 .button1{
@@ -23,9 +26,12 @@ a:hover {
     padding: 10px;
     margin: 0px;
     border-style: solid;
-    border-radius: 1px;
-    width: 150px;
+    border-radius: 150px;
+    width: 100px;
     float: right;
+}
+h2{
+    text-emphasis-position: right ; 
 }
 .logo{
     height: 11vw;
