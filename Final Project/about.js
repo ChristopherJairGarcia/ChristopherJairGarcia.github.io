@@ -13,8 +13,6 @@ let size1 = 55;
 let size2 = 55;
 let size5 = 55;
 let size6 = 55;
-let size7 = 55;
-let size8 = 55;
 let size9 = 55;
 let size10 = 55;
 let size11 = 55;
@@ -37,7 +35,7 @@ function setup()
   
 }
 function draw () {
-  background(#E7BC04);
+  background('#E7BC04');
     //table color
  fill( 51 );
  rect(100, 90, 655, 295);
@@ -81,9 +79,6 @@ ellipse(215, 240, size1, size2 );
              
              size5 = 450;
              size6 = 400;
-             textSize(32);
-             fill(0, 102, 153);
-             text('Hello World', 325, 295);
             
          }
          else{
@@ -241,7 +236,6 @@ ellipse(215, 240, size1, size2 );
    function mouseClicked() {
     leftplate = !leftplate;
     plate1 = !plate1;
-    
     plate3 = !plate3;
     plate4 = !plate4;
     plate5 = !plate5; 
@@ -249,3 +243,5 @@ ellipse(215, 240, size1, size2 );
     plate7 = !plate7;
     plate8 = !plate8;         
     }
+
+
