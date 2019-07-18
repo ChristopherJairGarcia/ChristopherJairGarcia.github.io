@@ -60,14 +60,7 @@ p{
     height: 18vh;
     padding-left: 1vw;
 }
-.list1{
-    color: white;
-    font-size: 18px;
-    margin: 0px;float: left;
-    width: 30vw;
-    height: 18vh;
-    padding-left: 1vw;
-}
+
 .list2{
     color: white;
     font-size: 18px;
@@ -83,4 +76,19 @@ p{
     float: right;
     padding-right: 5vw;
     padding-top: 6vw;
+}
+.p22{
+  padding-top: 2vw;
+   padding-left: 1vw;
+    color:  #771B8C;
+    margin: 0px;
+    font-size: 60px;
+    width: 70vw;
+    height: 30vh;
+    padding-left: 1vw;
+}
+.p2{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
 }
