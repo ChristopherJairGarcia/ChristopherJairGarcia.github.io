@@ -1,3 +1,4 @@
+
 let mousepressed = false; 
 let leftplate = false;
 let plate1 = false;
@@ -29,7 +30,8 @@ function setup()
 {   
     createCanvas(800, 400);
     //sets units of angles to be in degrees for arc
-    angleMode(DEGREES);  
+    angleMode(DEGREES);
+  
   
 }
 function draw () {
@@ -87,8 +89,11 @@ ellipse(215, 240, size1, size2 );
             size5 = 55;
             size6 = 55;
          }
+
          
      }
+      
+
  
  //top middle plate
   fill( 247, 251, 250);
@@ -102,16 +107,18 @@ ellipse(215, 240, size1, size2 );
              size10 = 400;
               textSize(32);
              fill(0, 102, 153);
-             text('Mercury is considered to be one of the major environmental pollutants, is widely used in industry, agriculture, and medicine, and circulates in ecosystems, but is never destroyed.Human exposure to these chemicals at toxic levels has been linked to numerous health effects including cancers, cardiovascular disease , kidney and liver dysfunction, hormonal imbalances, reproductive disorders, and birth defects. ', 295, 195);
+             text('Hehe', 295, 195);
             
          }
          else{
            
             size9 = 55;
             size10 = 55;
-         }       
+         }
+        
      
-     } 
+     }
+  
     
  //top right plate 
   fill( 247, 251, 250);
@@ -126,8 +133,8 @@ ellipse(215, 240, size1, size2 );
              size12 = 400;
              textSize(32);
              fill(0, 102, 153);
-             text('Most mercury pollution is released into the air and then falls directly into water bodies or onto land, where it can be washed into waterways. When mercury gets into water, bacteria can change it into a form called methylmercury, which is absorbed by tiny aquatic organisms.Human-caused emissions include mercury released from fuels or raw materials, or from uses in products or industrial processes for example factories
-', 295, 195);
+             text('Elmos World', 295, 195);
+           
          }
          else{
         
@@ -155,7 +162,7 @@ ellipse(215, 240, size1, size2 );
              size14 = 400;
               textSize(32);
              fill(0, 102, 153);
-             text('Elemental mercury is liquid at room temperature, and it can be released easily into the atmosphere as mercury vapor because of its high vapor pressure.Elemental mercury  also enter  the brain from the nasal cavity through the olfactory pathway (smell).', 295, 195);
+             text('Chem Is Try', 295, 195);
            
          }
          else{
@@ -163,7 +170,8 @@ ellipse(215, 240, size1, size2 );
             size13 = 55;
             size14 = 55;
          }
-               
+       
+        
     }
 
 
@@ -187,7 +195,8 @@ ellipse(215, 240, size1, size2 );
             
             size15 = 55;
             size16 = 55;
-         }   
+         }
+     
          
      }
 
@@ -204,14 +213,17 @@ ellipse(215, 240, size1, size2 );
              size18 = 400;
              textSize(32);
              fill(0, 102, 153);
-             text('', 365, 195);            
+             text('Hello World', 365, 195);
+            
              
          }
          else{
             
             size17 = 55;
             size18 = 55;
-         }        
+         }
+
+         
      }
 
 // // bottom left plate 
@@ -225,7 +237,9 @@ ellipse(215, 240, size1, size2 );
            
              size19 = 400;
              size20 = 400;
-         
+            
+             
+             
          }
          else{
            
@@ -233,6 +247,7 @@ ellipse(215, 240, size1, size2 );
             size20 = 55;
          }
      }
+    
      }
    function mouseClicked() {
     leftplate = !leftplate;
