@@ -27,3 +27,8 @@ a:hover {
     width: 150px;
     float: right;
 }
+.logo{
+    height: 11vw;
+    width: 20vw;
+    float: left;
+}
