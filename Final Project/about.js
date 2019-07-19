@@ -1,4 +1,3 @@
-
 let mousepressed = false; 
 let leftplate = false;
 let plate1 = false;
@@ -32,9 +31,20 @@ function setup()
     //sets units of angles to be in degrees for arc
     angleMode(DEGREES);
   
-  
 }
-function draw () {
+function draw () { 
+    let s = 'Mercury is considered to be one of the major environmental pollutants, is widely used in industry, agriculture, and medicine, and circulates in ecosystems, but is never destroyed.';
+    
+    let c= 'Human exposure to these chemicals at toxic levels has been linked to numerous health effects including cancers, cardiovascular disease , kidney and liver dysfunction, hormonal imbalances, reproductive disorders, and birth defects. ';
+    
+    let x = 'Most mercury pollution is released into the air and then falls directly into water bodies or onto land, where it can be washed into waterways. When mercury gets into water, bacteria can change it into a form called methylmercury, which is absorbed by tiny aquatic organisms.';
+    
+    let g = 'Mercury compounds have been used as skin ointments to treat skin infection, and in developing countries, they have been applied to the treatment of skin sores from syphilis';
+    
+    let d= 'Human-caused emissions include mercury released from fuels or raw materials, or from uses in products or industrial processes for example factories. Mercury enters the environment as a result of the normal degradation of minerals in rocks and soil from exposure to wind, water, and volcanic activity. Children are susceptible to the effects of toxic exposure due to their more permeable blood-brain barrier.Mercury enters the environment as a result of the normal degradation of minerals in rocks and soil from exposure to wind, water, and volcanic activity. Children are susceptible to the effects of toxic exposure due to their more permeable blood-brain barrier.';
+
+
+    
   background('#E7BC04');
     //table color
  fill( 51 );
@@ -62,8 +72,6 @@ ellipse(215, 240, size1, size2 );
             size1 = 55;
             size2 = 55;
          }
-        
-     
          
      }
    
@@ -79,22 +87,19 @@ ellipse(215, 240, size1, size2 );
              
              size5 = 450;
              size6 = 400;
-              textSize(32);
-             fill(0, 102, 153);
-             text('devin ',295, 195);
-            
+              textSize(16);
+             fill(50);
+             text(s, 150,100,400,90);
+             
          }
          else{
           
             size5 = 55;
             size6 = 55;
          }
-
          
      }
-      
 
- 
  //top middle plate
   fill( 247, 251, 250);
  ellipse(435 , 175, size9, size10);
@@ -105,17 +110,17 @@ ellipse(215, 240, size1, size2 );
            
              size9 = 450;
              size10 = 400;
-              textSize(32);
-             fill(0, 102, 153);
-             text('Hehe', 295, 195);
-            
+             textSize(16);
+             fill(50);
+             text(d,250,70,390,160);
+           
+             
          }
          else{
            
             size9 = 55;
             size10 = 55;
          }
-        
      
      }
   
@@ -131,9 +136,9 @@ ellipse(215, 240, size1, size2 );
             
              size11 = 450;
              size12 = 400;
-             textSize(32);
-             fill(0, 102, 153);
-             text('Elmos World', 295, 195);
+             textSize(16);
+             fill(50);
+             text(x,335,70,410,160);
            
          }
          else{
@@ -143,8 +148,6 @@ ellipse(215, 240, size1, size2 );
          }
        
      }  
-
-
     
  //big oval in the middle 
   fill( 247, 238, 250);
@@ -160,20 +163,15 @@ ellipse(215, 240, size1, size2 );
             
              size13 = 450;
              size14 = 400;
-              textSize(32);
-             fill(0, 102, 153);
-             text('Chem Is Try', 295, 195);
-           
+             
          }
          else{
         
             size13 = 55;
             size14 = 55;
          }
-       
         
     }
-
 
  // bottom right plate
   fill( 247, 341, 250);
@@ -186,17 +184,15 @@ ellipse(215, 240, size1, size2 );
             
              size15 = 450;
              size16 = 400;
-             fill(0, 102, 153);
-             textSize(32);
-             text('Its a Math Thing', 405, 195);
-          
+            textSize(16);
+             fill(50);
+             text(g,360,190,390,160);
          }
          else{
             
             size15 = 55;
             size16 = 55;
          }
-     
          
      }
 
@@ -211,11 +207,10 @@ ellipse(215, 240, size1, size2 );
              
              size17 = 450;
              size18 = 400;
-             textSize(32);
-             fill(0, 102, 153);
-             text('Hello World', 365, 195);
-            
-             
+             textSize(14);
+             fill(50);
+             text(c, 300, 180, 340 ,160);
+                         
          }
          else{
             
@@ -223,7 +218,6 @@ ellipse(215, 240, size1, size2 );
             size18 = 55;
          }
 
-         
      }
 
 // // bottom left plate 
@@ -237,8 +231,6 @@ ellipse(215, 240, size1, size2 );
            
              size19 = 400;
              size20 = 400;
-            
-             
              
          }
          else{
@@ -259,8 +251,4 @@ ellipse(215, 240, size1, size2 );
     plate7 = !plate7;
     plate8 = !plate8;         
     }
-
-
-
-
 
