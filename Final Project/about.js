@@ -30,7 +30,7 @@ function setup()
     createCanvas(800, 400);
     //sets units of angles to be in degrees for arc
     angleMode(DEGREES);
-    img = loadImage();
+    img = loadImage("AP_MercuryMines.gif");
   
 }
 function draw () { 
