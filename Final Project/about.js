@@ -30,6 +30,7 @@ function setup()
     createCanvas(800, 400);
     //sets units of angles to be in degrees for arc
     angleMode(DEGREES);
+    img = loadImage();
   
 }
 function draw () { 
@@ -231,7 +232,8 @@ ellipse(215, 240, size1, size2 );
            
              size19 = 400;
              size20 = 400;
-             
+            image(img, 0, 8/2, img.width /2, img.height/2);
+                  
          }
          else{
            
