@@ -232,7 +232,7 @@ ellipse(215, 240, size1, size2 );
            
              size19 = 400;
              size20 = 400;
-            image(img, 0, 8/2, img.width /2, img.height/2);
+            image(img, 325, 25/2, img.width /2, img.height2);
                   
          }
          else{
