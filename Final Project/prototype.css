@@ -8,16 +8,6 @@ body{
     float: left;
 }
 .our{
- body{
-    background-color: #E7BC04;
-    font-family: 'Nanum+gothic',sans-serif;
-}
-.logo{
-    height: 11vw;
-    width: 20vw;
-    float: left;
-}
-.our{
     padding-top: 9vw;
     padding-left: 35vw;
     color:  #771B8C;
@@ -90,89 +80,6 @@ p{
     width: 20vw;
     float: right;
     padding-right: 4vw;
-    padding-top: 6vw;
-}
-.p22{
-  padding-top: 2vw;
-   padding-left: 1vw;
-    color:  #771B8C;
-    margin: 0px;
-    font-size: 60px;
-    width: 70vw;
-    height: 30vh;
-    padding-left: 1vw;
-}
-.p2{
-    color: white;
-    font-size: 18px;
-    margin: 0px;
-}   padding-top: 9vw;
-    padding-left: 35vw;
-    color:  #771B8C;
-    margin: 0px;
-    font-size: 60px;
-}
-
-a{
-    color:  #771B8C;
-    text-decoration: none;
-    font-weight: 800;
-}
-
-a:hover { 
-    color: white;
-}
-
-.button1{
-    text-align: center;
-    padding: 10px;
-    margin: 0px;
-    border-style: solid;
-    border-radius: 150px;
-    width: 100px;
-    float: right;
-}
-h2{
-    font-size: 40px;
-    color: darkblue;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.what{
-    float: left;
-    width: 70vw;
-    height: 30vh;
-    padding-left: 1vw;
-    
-}
-p{
-  color: white;
-    font-size: 18px;
-    margin: 0px;
-}
-.list1{
-    color: white;
-    font-size: 18px;
-    margin: 0px;float: left;
-    width: 30vw;
-    height: 18vh;
-    padding-left: 1vw;
-}
-
-.list2{
-    color: white;
-    font-size: 18px;
-    margin: 0px;float: left;
-     width: 40vw;
-    height: 18vh;
-    padding-left: 1vw;
-}
-
-.img{
-    height: 20vw;
-    width: 20vw;
-    float: right;
-    padding-right: 5vw;
     padding-top: 6vw;
 }
 .p22{
